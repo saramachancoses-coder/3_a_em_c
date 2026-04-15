@@ -1,0 +1,11 @@
+
+
+int main()
+{
+    int a;
+    printf("Bem vindo a vida de Sr.Machancoses\n");
+    scanf("%i", &a);
+    printf("Sara uma moça de sonhos");
+
+    return 0;
+}
