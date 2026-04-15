@@ -1,0 +1,13 @@
+
+
+int main()
+{
+    int a, b,c;
+    
+    printf("Faça a soma de a e b\n");
+    scanf("%i", &a, &b);
+    c = a + b;
+    printf("A soma e %i,\n", c);
+
+    return 0;
+}
