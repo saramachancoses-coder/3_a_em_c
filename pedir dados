@@ -1,0 +1,11 @@
+
+
+int main()
+{
+    int a, b, c;
+    printf("Digite seu nome\n");
+   scanf("%i", %a);
+    
+
+    return 0;
+}
