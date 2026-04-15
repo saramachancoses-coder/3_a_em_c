@@ -1,0 +1,20 @@
+
+
+int main()
+{
+     int num;
+     
+    printf("Digite um numero");
+    scanf("%i", &num);
+    
+    if(num %2==0){
+        printf("O numero %i e par \n", num);
+    }
+        {
+            else
+        printf("O numero %i e impar \n", num);
+       
+        }
+
+    return 0;
+}
