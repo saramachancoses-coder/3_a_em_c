@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    
+    float valorhora, horastrabalhadas, salariototal;
+
+    printf("Qual o valor da hora trabalhada? ");
+    scanf("%f", &valorhora);
+
+    printf("Quantas horas foram trabalhadas no mes? ");
+    scanf("%f", &horastrabalhadas); 
+
+    // 2. Cálculo do salário
+    salariototal = valorhora * horastrabalhadas;
+    
+    printf("O salario total e: R$ %.2f\n", salariototal);
+
+    return 0;
+}
