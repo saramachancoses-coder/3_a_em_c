@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    
+    float distancia, combustivel, combustivelTotal;
+    
+    
+    printf("Qual a distancia?\n");
+    scanf("%f", &distancia);
+    combustivel = 12;
+    combustivelTotal= distancia/combustivel;
+    
+    printf("o combustivelTotal e: %.2f", combustivelTotal);
+
+    return 0;
+}
