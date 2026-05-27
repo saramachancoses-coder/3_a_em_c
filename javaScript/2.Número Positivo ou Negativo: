@@ -1,0 +1,34 @@
+let num;
+
+
+ num = Number(prompt("Digite um numero"));
+
+if(num>0){
+  console.log("O numero e positivo");
+}
+
+else if(num<0){
+  console.log("O numero e negativo");
+}
+else{
+  console.log("O numero e zero");
+}
+
+
+// função:
+
+function Vnum (a){
+  a= Number (prompt("digite um numero"));
+  
+  if(a > 0){
+  console.log("O numero e positivo");
+}
+
+else if(a < 0){
+  console.log("O numero e negativo");
+}
+else{
+  console.log("O numero e zero");
+}
+}
+Vnum();
