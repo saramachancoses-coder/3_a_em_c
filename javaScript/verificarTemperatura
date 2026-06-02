@@ -1,0 +1,11 @@
+function verificarTemperatura() {
+    let temperatura = prompt("Qual é a temperatura atual?");
+
+    if (temperatura > 30) {
+        console.log("Está calor");
+    } else {
+        console.log("Está um clima agradável");
+    }
+}
+
+verificarTemperatura();
