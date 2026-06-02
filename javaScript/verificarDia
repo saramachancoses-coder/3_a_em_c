@@ -1,0 +1,11 @@
+function verificarDia() {
+    let dia = prompt("Digite um número de 1 a 7:");
+
+    if (dia == 6 || dia == 7) {
+        console.log("É fim de semana!");
+    } else {
+        console.log("É dia útil!");
+    }
+}
+
+verificarDia();
