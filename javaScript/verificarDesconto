@@ -1,0 +1,11 @@
+function verificarDesconto() {
+    let itens = prompt("Quantos itens você comprou?");
+
+    if (itens > 5) {
+        console.log("Tens direito a um desconto!");
+    } else {
+        console.log("Sem desconto disponível");
+    }
+}
+
+verificarDesconto();
