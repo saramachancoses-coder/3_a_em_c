@@ -1,0 +1,20 @@
+
+  
+  function compararNumeros() {
+    let a = prompt("Digite o primeiro número (a):");
+    let b = prompt("Digite o segundo número (b):");
+
+    if (a > b) {
+        console.log("O número A é maior");
+    } else if (b > a) {
+        console.log("O número B é maior");
+    } else {
+        console.log("Os números são iguais");
+    }
+}
+
+
+compararNumeros();
+
+
+
