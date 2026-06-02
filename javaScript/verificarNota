@@ -1,0 +1,18 @@
+function verificarNota () {
+  
+  let nota = prompt("Digite sua nota: ");
+
+
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5) {
+    console.log("Aluno de Recuperação");
+} else {
+    console.log("Reprovado");
+}
+}
+
+
+verificarNota ();
+
+
