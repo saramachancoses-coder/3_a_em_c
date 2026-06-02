@@ -1,0 +1,10 @@
+function verificarAcesso(){
+    let utilizador;
+    utilizador = prompt("admin ? (s/n)");
+    if(utilizador == "s"){
+        console.log("Bem vindo, adiministrador!");
+    }else{
+        console.log("Bem vindo, utilizador comum!");
+    }
+}
+verificarAcesso();
