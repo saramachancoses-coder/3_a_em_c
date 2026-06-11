@@ -1,0 +1,18 @@
+// 1. Crie um array chamado 'filmes' com 3 títulos que você gosta.
+let filmes = ['Matrix', 'Interestelar', 'O Inception'];
+
+// 2. Adicione um novo filme no FINAL da lista.
+filmes.push('Gladiador');
+
+// 3. Adicione um novo filme no INÍCIO da lista.
+filmes.unshift('Avatar');
+
+// 4. Delete o ÚLTIMO filme da lista.
+filmes.pop();
+
+// 5. Exiba no console o SEGUNDO filme da lista (Atenção ao índice!).
+// Como os índices começam em 0, o segundo elemento está no índice 1.
+console.log(filmes[1]);
+
+// 6. Exiba no console o tamanho total da sua lista (length).
+console.log(filmes.length);
