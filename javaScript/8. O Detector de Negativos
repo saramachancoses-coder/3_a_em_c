@@ -1,0 +1,11 @@
+let contadorNegativos = 0;
+
+for (let i = 1; i <= 8; i++) {
+    let numero = parseFloat(prompt(`Digite o ${i}º número (de 8):`));
+    
+    if (numero < 0) {
+        contadorNegativos++; // Incrementa +1 se for menor que zero
+    }
+}
+
+console.log(`Quantidade de números negativos digitados: ${contadorNegativos}`);
