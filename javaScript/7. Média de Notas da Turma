@@ -1,0 +1,10 @@
+let somaNotas = 0;
+const totalAlunos = 5;
+
+for (let i = 1; i <= totalAlunos; i++) {
+    let nota = parseFloat(prompt(`Digite a nota do aluno ${i}:`)); 
+    somaNotas += nota;
+}
+
+let media = somaNotas / totalAlunos;
+console.log(`A média aritmética da turma é: ${media.toFixed(2)}`);
