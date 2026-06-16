@@ -1,0 +1,32 @@
+// 1. Criar a estrutura (Classe) do produto
+class Produto {
+    String nome;
+    double precoOriginal;
+    double desconto;
+
+    // 3. (Desafio) Método calcularPrecoFinal usando 'this'
+    double calcularPrecoFinal() {
+        // O 'this' aponta para as variáveis da própria classe Produto
+        double valorDesconto = this.precoOriginal * this.desconto;
+        return this.precoOriginal - valorDesconto;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Criando o objeto 'produto'
+        Produto produto = new Produto();
+        
+        // Atribuindo os valores iniciais
+        produto.nome = "Notebook";
+        produto.precoOriginal = 3000.00;
+        produto.desconto = 0.15; // 15% de desconto
+
+        // 2. Exibir no console a frase solicitada
+        System.out.println("Produto: " + produto.nome + " - R$ " + produto.precoOriginal);
+
+        // 4. Chamar o método calcularPrecoFinal no console para ver o resultado
+        double precoFinal = produto.calcularPrecoFinal();
+        System.out.println("Preço final com desconto: R$ " + precoFinal);
+    }
+}
