@@ -1,0 +1,9 @@
+// A)
+const triplo = (numero) => {
+    return numero * 3;
+};
+
+// B)
+const calcularMedia = (nota1, nota2) => {
+    return (nota1 + nota2) / 2;
+};
