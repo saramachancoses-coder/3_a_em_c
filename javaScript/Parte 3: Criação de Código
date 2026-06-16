@@ -1,0 +1,5 @@
+// A) Recebe um número e soma 1
+const somarMaisUm = numero => numero + 1;
+
+// B) Recebe dois números e subtrai a - b (precisa de parênteses porque são 2 parâmetros)
+const subtrair = (a, b) => a - b;
