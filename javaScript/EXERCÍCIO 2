@@ -1,0 +1,37 @@
+// 1. Criar a estrutura (Classe) do usuário
+class Usuario {
+    String nome;
+    String email;
+    int idade;
+    boolean estaAtivo;
+    String telefone; // Propriedade que será adicionada depois
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Criando o objeto 'usuario'
+        Usuario usuario = new Usuario();
+        
+        // Atribuindo os valores iniciais
+        usuario.nome = "Carlos Silva";
+        usuario.email = "carlos@email.com";
+        usuario.idade = 25;
+        usuario.estaAtivo = true;
+
+        // 2. Exibir no console o nome e o email do usuário
+        System.out.println("Nome: " + usuario.nome);
+        System.out.println("Email: " + usuario.email);
+
+        // 3. O usuário fez aniversário! Altere a idade somando 1 ano a ela
+        usuario.idade = usuario.idade + 1;
+        System.out.println("Nova idade: " + usuario.idade);
+
+        // 4. Adicione uma nova propriedade chamada 'telefone' com um número
+        usuario.telefone = "11999998888";
+        System.out.println("Telefone: " + usuario.telefone);
+
+        // 5. Modifique a propriedade 'estaAtivo' para o valor inverso do atual
+        usuario.estaAtivo = !usuario.estaAtivo; 
+        System.out.println("Está ativo? " + usuario.estaAtivo);
+    }
+}
