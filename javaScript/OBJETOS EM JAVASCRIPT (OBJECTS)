@@ -1,0 +1,27 @@
+// 1. Criar o objeto chamado 'carro'
+const carro = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: 2024,
+    cor: "Prata"
+};
+
+// 2. Exibir no console apenas a marca e a cor
+console.log("Marca:", carro.marca);
+console.log("Cor original:", carro.cor);
+
+// 3. Alterar a cor do carro
+carro.cor = "Preto";
+console.log("Nova cor:", carro.cor);
+
+// 4. Adicionar a propriedade 'preco'
+carro.preco = 150000;
+console.log("Preço: R$", carro.preco);
+
+// 5. (Desafio) Adicionar o método 'ligar' sem usar template string
+carro.ligar = function() {
+    console.log("O carro", this.modelo, "está ligado!");
+};
+
+// Testar o método no console
+carro.ligar();
