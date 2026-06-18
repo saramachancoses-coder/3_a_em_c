@@ -1,0 +1,23 @@
+// 1. Crie um objeto chamado 'carro' com as propriedades: marca, modelo, ano e cor.
+//2. Exiba no console apenas a marca e a cor do carro.
+//3. Altere a cor do carro para uma nova cor de sua escolha.
+//4. Adicione uma nova propriedade chamada 'preco' com um valor.
+//5. (Desafio) Adicione um método chamado 'ligar' que exiba a mensagem: 
+ //  "O carro [modelo] está ligado!". Teste o método no console.
+
+
+let carro = {
+    marca: 'Ford',
+    modelo: 'SUV',
+    ano: '2020',
+    cor: 'rosa pink',
+    ligar: function () {
+        console.log ("O carro "+ this.modelo+" está ligado! ")
+    }
+}
+console.log (carro.marca+ " " +carro.cor);
+carro.cor = "vermelho";
+console.log (carro.marca+ " " +carro.cor);
+carro.preco = 30000;
+console.log (carro.preco);
+carro.ligar ();
