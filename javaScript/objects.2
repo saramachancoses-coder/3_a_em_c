@@ -1,0 +1,24 @@
+//. Crie um objeto chamado 'usuario' com as propriedades: nome, 
+// email, idade e estaAtivo (um valor booleano: true ou false).
+//2. Exiba no console o nome e o email do usuário.
+//3. O usuário fez aniversário! Altere a idade somando 1 ano a ela.
+//4. Adicione uma nova propriedade chamada 'telefone' com um número.
+//5. Modifique a propriedade 'estaAtivo' para o valor inverso do atual.
+
+let usuario = {
+    nome: 'Carlos',
+    email: 'carlos@gmail.com',
+    idade: 18,
+    estaAtivo: true
+}
+console.log(usuario.nome + " " +usuario.email)
+usuario.idade = usuario.idade +1;
+console.log(usuario.idade);
+usuario.telefone = "xxxxxxxxexxx";
+console.log(usuario.telefone);
+if (usuario.estaAtivo == true){
+    usuario.estaAtivo = false;
+}else {
+    usuario.estaAtivo = true;
+}
+console.log (usuario.estaAtivo)
