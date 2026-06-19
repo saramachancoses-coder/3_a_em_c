@@ -1,0 +1,14 @@
+
+ const triplo = (numero) => {
+
+return numero * 3;
+}
+
+
+const calcularMedia = (nota1, nota2) => {
+
+return (nota1 + nota2) / 2;
+
+}
+
+console.log (calcularMedia(9,5));
