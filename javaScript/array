@@ -12,3 +12,35 @@ return (nota1 + nota2) / 2;
 }
 
 console.log (calcularMedia(9,5));
+
+// exercício 2
+
+
+// A)
+
+const verificarPar = numero =>  numero % 2 === 0;
+console.log(verificarPar(8));
+
+
+// B)
+
+const converterCelsius = fahrenheit => fahrenheit - 32 * 5/9;
+console.log(converterCelsius(879));
+//exercício 3
+//\Exercício 3: Crie as seguintes Arrow Functions do zero de forma super simplificada (em apenas uma linha,
+//\\usando o retorno implícito):
+
+//A) Crie uma função chamada somarMaisUm que recebe um número e retorna esse número somado com 1.
+
+//B) Crie uma função chamada subtrair que recebe dois números (a e b) e retorna o resultado de a - b.
+
+//a)
+const somarMaisUm  = a => a + 1;
+console.log (somarMaisUm(3));
+//b)
+const subtrair  = (a, b) => a - b;
+console.log (subtrair(3, 2));
+
+
+
+
