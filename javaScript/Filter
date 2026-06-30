@@ -1,0 +1,14 @@
+const usuarios = [
+  { nome: 'Ana', ativo: true },
+  { nome: 'Rodrigo', ativo: false },
+  { nome: 'Beatriz', ativo: true },
+  { nome: 'Lucas', ativo: false }
+];
+
+// 1. Filtra apenas os usuários ativos
+const usuariosAtivos = usuarios.filter(usuario => usuario.ativo);
+
+// 2. Percorre o novo array e exibe a mensagem no console
+usuariosAtivos.forEach(usuario => {
+  console.log(`Usuário ${usuario.nome} está online!`);
+});
