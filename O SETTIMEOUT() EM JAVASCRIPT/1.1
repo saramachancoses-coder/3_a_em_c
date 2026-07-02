@@ -1,0 +1,39 @@
+ // - O 'setTimeout' é uma função nativa do JavaScript usada para 
+     //atrasar a execução de um código.
+  // - Ele funciona como um **cronômetro / temporizador**: você diz o 
+   //  que quer que aconteça e quantos milissegundos o navegador deve 
+   //  esperar antes de rodar o código.
+
+   //⚠️ REGRA DO TEMPO: O tempo é medido em MILISSEGUNDOS (ms).
+    //  • 1000 milissegundos = 1 Segundo.
+     // • 3000 milissegundos = 3 Segundos.
+     // • 500 milissegundos  = Meio Segundo.
+
+//SINTAXE BÁSICA
+
+
+setTimeout( funcaoAnónima, tempoEmMilissegundos );
+
+setTimeout( function() {
+       // O código que vai rodar depois do tempo acabar
+   }, 2000 );
+
+
+//EXEMPLO PRÁTICO (O Alerta de Bom Dia): 
+
+console.log("Início do programa.");
+
+   setTimeout( function() {
+       console.log("⏰ 3 segundos se passaram!");
+   }, 3000 );
+
+   console.log("Fim do programa?");
+
+
+//USANDO COM ARROW FUNCTION (Mais Moderno): 
+
+
+setTimeout(() => {
+       console.log("Código simplificado com Arrow Function!");
+   }, 1000);
+
