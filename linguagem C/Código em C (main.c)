@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("Olá, GitHub! Meu primeiro código em C está online.\n");
+    return 0;
+}
